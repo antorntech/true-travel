@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap");
+.home-details h1 {
+  font-size: 80px;
+  font-family: "Lobster", cursive;
+}
+
+.home-details h1,
+p {
+  color: #fff;
+}
+
+.booking-btn {
+  background-color: #e47657;
+  border: none;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.booking-btn:hover {
+  background-color: #d64219;
+  color: #fff;
+}
