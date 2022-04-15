@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container-fluid" style={{ background: "#000" }}>
+    <div className="container-fluid" style={{ background: "transparent" }}>
       <div className="container">
         <Navbar expand="lg">
           <Container fluid>
