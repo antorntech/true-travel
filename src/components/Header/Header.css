@@ -1,0 +1,13 @@
+.nav-link {
+  color: #fff !important;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: 1px solid #e47657;
+}
+
+.search-btn:hover {
+  background-color: #e47657;
+  border: 1px solid #e47657;
+}
