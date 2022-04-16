@@ -55,7 +55,9 @@ const Header = () => {
                     Blog-3
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#">Login</Nav.Link>
+                <Nav.Link as={Link} to="/login">
+                  Login
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -6,6 +6,7 @@ import CardSlider from "./components/CardSlider/CardSlider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Destination from "./components/Destination/Destination";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           path="/destination"
           element={<Destination></Destination>}
         ></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
     </div>
   );

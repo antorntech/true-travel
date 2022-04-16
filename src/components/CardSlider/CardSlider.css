@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap");
 .home-details h1 {
+  color: #000;
   font-size: 80px;
   font-family: "Lobster", cursive;
 }
 
-.home-details h1,
-p {
-  color: rgb(214, 214, 214);
+.home-details p {
+  color: rgb(136, 136, 136);
 }
 
 .booking-btn {
@@ -29,10 +29,15 @@ p {
   box-shadow: rgb(39, 39, 39) 0px 2px 4px 0px, rgb(63, 63, 63) 0px 2px 16px 0px;
 }
 
+.slick-prev,
+.slick-next {
+  border-radius: 15px;
+  background-color: orange !important;
+}
+
 @media screen and (max-width: 992px) {
   .home-details h1 {
     font-size: 80px;
-    color: #000;
     font-family: "Lobster", cursive;
   }
 

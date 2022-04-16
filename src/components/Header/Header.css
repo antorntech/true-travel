@@ -1,5 +1,5 @@
 .nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 input[type="search"] {
@@ -9,6 +9,7 @@ input[type="search"] {
 .search-btn {
   background-color: transparent;
   border: 1px solid #e47657;
+  color: #000;
 }
 
 .search-btn:hover {

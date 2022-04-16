@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap");
 .destination-details h1 {
   font-size: 80px;
-  color: #fff;
+  color: #000;
   font-family: "Lobster", cursive;
+}
+
+.destination-details p {
+  color: rgb(136, 136, 136);
 }
 
 .booking-form {
   background-color: #fff;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 input[type="text"],
