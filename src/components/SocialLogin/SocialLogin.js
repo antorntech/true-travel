@@ -2,8 +2,15 @@ import React from "react";
 import "./SocialLogin.css";
 import googleIcon from "../../images/social/google.png";
 import github from "../../images/social/github.png";
+import auth from "../../firebase.init";
+import {
+  useSignInWithGoogle,
+  useSignInWithGithub,
+} from "react-firebase-hooks/auth";
 
 const SocialLogin = () => {
+  const [signInWithGoogle, user] = useSignInWithGoogle(auth);
+  const [signInWithGithub] = useSignInWithGithub(auth);
   return (
     <div className="my-3">
       <div className="d-flex align-items-center">
@@ -22,11 +29,11 @@ const SocialLogin = () => {
         ></div>
       </div>
       <div>
-        <button className="googleBtn my-2">
+        <button onClick={() => signInWithGoogle()} className="googleBtn my-2">
           <img src={googleIcon} alt="" />
           <span className="px-2">Sign In With Google</span>
         </button>
-        <button className="googleBtn my-2">
+        <button onClick={() => signInWithGithub()} className="googleBtn my-2">
           <img src={github} alt="" />
           <span className="px-2">Sign In With Github</span>
         </button>

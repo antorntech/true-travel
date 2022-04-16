@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="container">
       <div className="total-form mx-auto bg-white mt-4">
-        <div className="just-form p-3">
+        <div className="just-form p-4">
           <header className="mb-4 text-start fw-bold">
             <h3>Please Login</h3>
           </header>
