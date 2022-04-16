@@ -22,7 +22,7 @@ export default class CardSlider extends Component {
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-2 d-flex align-items-center pt-lg-5">
           <div className="col-lg-7">
-            <div className="home-details text-start p-5">
+            <div className="home-details text-start p-3 p-lg-5">
               <h1>COX'S BAZAR</h1>
               <p className="pb-lg-4">
                 The name Cox's Bazar originated from the name of a British East
@@ -47,6 +47,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider1}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
               <div>
@@ -55,6 +56,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider2}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
               <div>
@@ -63,6 +65,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider3}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
               <div>
@@ -71,6 +74,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider4}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
               <div>
@@ -79,6 +83,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider5}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
               <div>
@@ -87,6 +92,7 @@ export default class CardSlider extends Component {
                   className="img-fluid mx-auto box-shadow"
                   src={slider6}
                   alt=""
+                  style={{ borderRadius: "4px" }}
                 />
               </div>
             </Slider>

@@ -28,3 +28,19 @@ p {
 .box-shadow {
   box-shadow: rgb(39, 39, 39) 0px 2px 4px 0px, rgb(63, 63, 63) 0px 2px 16px 0px;
 }
+
+@media screen and (max-width: 992px) {
+  .home-details h1 {
+    font-size: 80px;
+    color: #000;
+    font-family: "Lobster", cursive;
+  }
+
+  .home-details p {
+    color: rgb(156, 156, 156);
+  }
+
+  img {
+    width: 100%;
+  }
+}
