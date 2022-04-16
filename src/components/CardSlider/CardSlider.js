@@ -25,10 +25,13 @@ export default class CardSlider extends Component {
             <div className="home-details text-start p-5">
               <h1>COX'S BAZAR</h1>
               <p className="pb-lg-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
-                sit a aliquam ipsam ab dolore iste ducimus. Alias modi
-                voluptatibus natus facere! Praesentium voluptatum commodi ex
-                expedita. Animi, fugit fuga.
+                The name Cox's Bazar originated from the name of a British East
+                India Company officer, Captain Hiram Cox, who was appointed as
+                the Superintendent of Palonki (today's Cox's Bazar) outpost. He
+                succeeded Warren Hastings, who became the Governor of Bengal
+                following the British East India Company Act in 1773. Cox
+                embarked upon the task of rehabilitation and settlement of the
+                Arakanese refugees in the area.
               </p>
               <button className="booking-btn">
                 Booking
@@ -41,7 +44,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider1}
                   alt=""
                 />
@@ -49,7 +52,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider2}
                   alt=""
                 />
@@ -57,7 +60,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider3}
                   alt=""
                 />
@@ -65,7 +68,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider4}
                   alt=""
                 />
@@ -73,7 +76,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider5}
                   alt=""
                 />
@@ -81,7 +84,7 @@ export default class CardSlider extends Component {
               <div>
                 <img
                   width="300px"
-                  className="img-fluid mx-auto"
+                  className="img-fluid mx-auto box-shadow"
                   src={slider6}
                   alt=""
                 />

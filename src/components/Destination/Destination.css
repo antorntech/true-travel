@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap");
+.destination-details h1 {
+  font-size: 80px;
+  color: #fff;
+  font-family: "Lobster", cursive;
+}
+
+.booking-form {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  border: none;
+  text-indent: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 0;
+  background-color: rgb(219, 219, 219);
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+label {
+  color: rgb(158, 158, 158);
+  padding: 5px 0;
+}
+
+.start-booking-btn {
+  border: none;
+  background-color: #e47657;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.start-booking-btn:hover {
+  background-color: #da5e3c;
+  color: #fff;
+}
+
+#myBtn {
+  display: none;
+  border: none;
+  background-color: #e47657;
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+  .destination-details h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: #000;
+    font-family: "Lobster", cursive;
+  }
+
+  .destination-details p {
+    color: rgb(156, 156, 156);
+  }
+
+  .booking-form {
+    margin-top: 20px;
+  }
+
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    display: block;
+  }
+}
