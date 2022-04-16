@@ -22,7 +22,7 @@ const Header = () => {
               <img src={logo} alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Form className="d-flex w-50 ms-5">
+            <Form className="d-flex ms-lg-5 mt-3 mt-lg-0">
               <FormControl
                 type="search"
                 placeholder="Search"
