@@ -1,0 +1,24 @@
+.total-form {
+  width: 450px;
+}
+
+.form-details input[type="text"],
+input[type="password"] {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+}
+
+.registration-btn {
+  width: 100%;
+  border: none;
+  padding: 8px 0;
+  background-color: #e47657;
+  transition: 0.5s;
+}
+
+.registration-btn:hover {
+  color: #fff;
+  background-color: #e96540;
+}

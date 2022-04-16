@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Destination from "./components/Destination/Destination";
 import Login from "./components/Login/Login";
+import Registration from "./components/Registration/Registration";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
         <Route
           path="/destination"
           element={<Destination></Destination>}
+        ></Route>
+        <Route
+          path="/registration"
+          element={<Registration></Registration>}
         ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
       </Routes>

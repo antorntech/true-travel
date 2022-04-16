@@ -30,7 +30,7 @@ input[type="text"]:focus {
   outline: none;
 }
 
-label {
+.booking-form label {
   color: rgb(158, 158, 158);
   padding: 5px 0;
 }
